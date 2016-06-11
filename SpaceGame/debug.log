@@ -1,0 +1,278 @@
+
+                         ''~``                          
+                        ( o o )                         
++------------------.oooO--(_)--Oooo.------------------+ 
+|                                                     | 
+|                .-------------------.                | 
+|                | I N D I E  L I B  |                | 
+|                .-------------------.                | 
+|                    .oooO                            | 
+|                    (   )   Oooo.                    | 
++---------------------\ (----(   )--------------------+
+                       \_)    ) /                      
+                             (_/                        
+Indielib version: 0.5.1
+
+[Init time]: (Friday, 10 of June 2016)
+
+[20:19:53] [ BEGIN ] -- Creating Render --
+                     {
+[20:19:53] [ BEGIN ]    -- Creating SDL window --
+                        {
+           [  OK   ]       Window created
+           [ INFO  ]       Mode: Window
+                        }
+[20:19:53] [  END  ]    Window OK [Elapsed time = 0.007 seg]
+[20:19:53] [ BEGIN ]    -- Initializing Direct3D --
+                        {
+           [  OK   ]       Creating D3D object
+           [  OK   ]       Obtaining the adapter
+           [  OK   ]       Creating the device (D3DCREATE_HARDWARE_VERTEXPROCESSING)
+           [ INFO  ]       Video mode: 800 x 600 x 32
+                        }
+[20:19:53] [  END  ]    Direct3D OK [Elapsed time = 0.043 seg]
+[20:19:53] [ BEGIN ]    -- Hardware information --
+                        {
+           [ INFO  ]       Direct3D version: DXSDK November 2007
+           [ INFO  ]       Mark: Nvidia
+           [ INFO  ]       Chip: NVIDIA GeForce GTX 760M 
+           [ INFO  ]       Primitive antialising (D3DRS_ANTIALIASEDLINEENABLE): No
+           [ INFO  ]       Maximum texture size: 16384 x 16384
+           [ INFO  ]       Vertex Shader: 3 . 0 
+           [ INFO  ]       Pixel Shader: 3 . 0
+                        }
+[20:19:53] [  END  ]    Hardware Ok [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Initializing ImageManager --
+                        {
+           [  OK   ]       Preparing ImageManager
+           [ INFO  ]       Using FreeImage version:  3.15.3
+           [ INFO  ]       Copyright:  This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+                        }
+[20:19:53] [  END  ]    ImageManager Initialised [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Initializing SurfaceManager --
+                        {
+           [  OK   ]       Checking IND_Render
+           [  OK   ]       Checking IND_ImageManager
+                        }
+[20:19:53] [  END  ]    SurfaceManager OK [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Initializing AnimationManager --
+                        {
+           [  OK   ]       SurfaceManager Ok
+           [  OK   ]       ImageManager Ok
+                        }
+[20:19:53] [  END  ]    AnimationManager OK [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Initializing FontManager --
+                        {
+           [  OK   ]       SurfaceManager Ok
+           [  OK   ]       ImageManager Ok
+                        }
+[20:19:53] [  END  ]    FontManager OK [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Initializing Entity2dManager --
+                        {
+           [  OK   ]       Preparing Entity2dManager
+           [  OK   ]        Checking IND_Render
+                        }
+[20:19:53] [  END  ]    Entity2dManager OK [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/new-bg.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 1920 x 1080
+           [ INFO  ]       Bpp: 3
+           [ INFO  ]       Format: IND_RGB
+                        }
+[20:19:53] [  END  ]    Image loaded [Elapsed time = 0.068 seg]
+[20:19:53] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../SpaceGame/resources/new-bg.png
+           [  OK   ]       Image type converted to 32-bit RGB implicitly.
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 1920 x 1080
+           [ INFO  ]       Block size: 2048 x 2048
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 128 x 968
+                        }
+[20:19:53] [  END  ]    Surface created [Elapsed time = 0.043 seg]
+[20:19:53] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/new-bg.png
+                        }
+[20:19:53] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[20:19:53] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/asteroid.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 96 x 96
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[20:19:53] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[20:19:53] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../SpaceGame/resources/asteroid.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 96 x 96
+           [ INFO  ]       Block size: 128 x 128
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 32 x 32
+                        }
+[20:19:53] [  END  ]    Surface created [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/asteroid.png
+                        }
+[20:19:53] [  END  ]    Ok [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/font_small.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 256 x 256
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[20:19:53] [  END  ]    Image loaded [Elapsed time = 0.003 seg]
+[20:19:53] [ BEGIN ]    -- Parsing and loading font --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/font_small.xml
+[20:19:53] [ BEGIN ]       -- Creating surface --
+                           {
+           [ INFO  ]          From image: ../SpaceGame/resources/font_small.png
+           [ INFO  ]          Type: IND_ALPHA
+           [ INFO  ]          Quality: IND_32
+           [ INFO  ]          Image size: 256 x 256
+           [ INFO  ]          Block size: 256 x 256
+           [ INFO  ]          Number of blocks: 1 x 1
+           [ INFO  ]          Spare (Right | Down): 0 x 0
+                           }
+[20:19:53] [  END  ]       Surface created [Elapsed time = 0.001 seg]
+                        }
+[20:19:53] [  END  ]    Font parsed and loaded [Elapsed time = 0.056 seg]
+[20:19:53] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/font_small.png
+                        }
+[20:19:53] [  END  ]    Ok [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Loading Image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/beetleship.png
+           [ INFO  ]       Extension: png
+           [ INFO  ]       Size: 193 x 227
+           [ INFO  ]       Bpp: 4
+           [ INFO  ]       Format: IND_RGBA
+                        }
+[20:19:53] [  END  ]    Image loaded [Elapsed time = 0.002 seg]
+[20:19:53] [ BEGIN ]    -- Creating surface --
+                        {
+           [ INFO  ]       From image: ../SpaceGame/resources/beetleship.png
+           [ INFO  ]       Type: IND_ALPHA
+           [ INFO  ]       Quality: IND_32
+           [ INFO  ]       Image size: 193 x 227
+           [ INFO  ]       Block size: 256 x 256
+           [ INFO  ]       Number of blocks: 1 x 1
+           [ INFO  ]       Spare (Right | Down): 63 x 29
+                        }
+[20:19:53] [  END  ]    Surface created [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Freeing image --
+                        {
+           [ INFO  ]       File name: ../SpaceGame/resources/beetleship.png
+                        }
+[20:19:53] [  END  ]    Ok [Elapsed time = 0.001 seg]
+[20:19:53] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 0
+                        }
+[20:19:53] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 1
+                        }
+[20:19:53] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 2
+                        }
+[20:19:53] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 3
+                        }
+[20:19:53] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 4
+                        }
+[20:19:53] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 5
+                        }
+[20:19:53] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[20:19:53] [ BEGIN ]    -- Adding 2d entity --
+                        {
+           [ INFO  ]       Name: 6
+                        }
+[20:19:53] [  END  ]    2d entity added [Elapsed time = 0 seg]
+[20:20:13] [ BEGIN ]    -- Finalizing Entity2dManager --
+                        {
+[20:20:13] [ BEGIN ]       -- Freeing 2d entities --
+                           {
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+           [ INFO  ]          Freeing 2d entity: 0
+                           }
+[20:20:13] [  END  ]       Entities freed [Elapsed time = 0 seg]
+                        }
+[20:20:13] [  END  ]    IND_Entity2dManager finalized [Elapsed time = 0 seg]
+[20:20:13] [ BEGIN ]    -- Finalizing FontManager --
+                        {
+[20:20:13] [ BEGIN ]       -- Freeing fonts --
+                           {
+           [ INFO  ]          Freeing font: ../SpaceGame/resources/font_small.xml
+[20:20:13] [ BEGIN ]          -- Freeing surface --
+                              {
+                              }
+[20:20:13] [  END  ]          Ok [Elapsed time = 0 seg]
+                           }
+[20:20:13] [  END  ]       Fonts freed [Elapsed time = 0 seg]
+                        }
+[20:20:13] [  END  ]    FontManager finalized [Elapsed time = 0 seg]
+[20:20:13] [ BEGIN ]    -- Finalizing AnimationManager --
+                        {
+[20:20:13] [ BEGIN ]       -- Freeing animations --
+                           {
+                           }
+[20:20:13] [  END  ]       Animations freed [Elapsed time = 0 seg]
+                        }
+[20:20:13] [  END  ]    AnimationManager finalized [Elapsed time = 0 seg]
+[20:20:13] [ BEGIN ]    -- Finalizing SurfaceManager --
+                        {
+[20:20:13] [ BEGIN ]       -- Freeing surfaces --
+                           {
+           [ INFO  ]          Freeing surface:           [ INFO  ]          Freeing surface:           [ INFO  ]          Freeing surface:                           }
+[20:20:13] [  END  ]       Surfaces freed [Elapsed time = 0.003 seg]
+                        }
+[20:20:13] [  END  ]    IND_SurfaceManager finalized [Elapsed time = 0.003 seg]
+[20:20:13] [ BEGIN ]    -- Finalizing ImageManager --
+                        {
+[20:20:13] [ BEGIN ]       -- Freeing images --
+                           {
+                           }
+[20:20:13] [  END  ]       Images freed [Elapsed time = 0.002 seg]
+                        }
+[20:20:13] [  END  ]    ImageManager finalized [Elapsed time = 0.002 seg]
+[20:20:13] [ BEGIN ]    -- Finalizing Direct3D --
+                        {
+           [  OK   ]       Finalizing the Device
+           [  OK   ]       Finalizing D3D object
+[20:20:13] [ BEGIN ]       -- Finalizing the window --
+                           {
+                           }
+[20:20:13] [  END  ]       Window finalized [Elapsed time = 0.002 seg]
+                        }
+[20:20:13] [  END  ]    Direct3D finalized  [Elapsed time = 0.02 seg]
